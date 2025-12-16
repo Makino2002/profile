@@ -9,7 +9,7 @@ export default function Health() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/health")
+    fetch("https://profile-1-ybbp.onrender.com/health")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
