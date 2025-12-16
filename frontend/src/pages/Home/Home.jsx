@@ -8,7 +8,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:3000/health")
+    fetch("https://profile-1-ybbp.onrender.com/health")
       .then((res) => res.json())
       .then((data) => {
         console.log("Health:", data);
