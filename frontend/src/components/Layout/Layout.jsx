@@ -16,6 +16,9 @@ export default function Layout({ children }) {
             <Link to="/health" className="nav-link">
               Health
             </Link>
+            <Link to="/cv" className="cv-button">
+              CV
+            </Link>
           </div>
         </div>
       </nav>

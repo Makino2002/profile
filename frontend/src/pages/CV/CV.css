@@ -1,0 +1,137 @@
+/* Khung chính CV */
+.cv-container {
+  width: 95%;
+  max-width: 1000px;
+  margin: 15px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Header */
+.cv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f7f7f7;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Bên trái */
+.cv-header-left {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
+
+.cv-header-left img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  object-fit: cover;
+}
+
+.cv-header-left .cv-info {
+  max-width: 500px;
+}
+
+.cv-header-left h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #003333;
+  letter-spacing: -0.5px;
+}
+
+.cv-header-left .cv-position {
+  font-weight: 600;
+  margin: 5px 0;
+  color: #0d5e3c;
+  font-size: 16px;
+}
+
+/* Bên phải */
+.cv-header-right {
+  min-width: 250px;
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.cv-header-right a {
+  color: #003333;
+  text-decoration: none;
+}
+
+.cv-header-right a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 830px) {
+  .cv-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cv-header-left {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cv-header-right {
+    text-align: center;
+  }
+}
+
+/* Các section nội dung */
+.cv-section {
+  margin-top: 30px;
+}
+
+.cv-section h2 {
+  border-bottom: 2px solid #155a15;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #0a472e;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+.cv-section ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.cv-section ul li {
+  margin-bottom: 8px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+/* Link */
+.cv-section a {
+  color: #0d5e3c;
+  text-decoration: none;
+}
+
+.cv-section a:hover {
+  text-decoration: underline;
+}
+
+.cv-header-right a {
+  color: #003333;
+  text-decoration: none;
+}
+
+.cv-header-right a:hover {
+  text-decoration: underline;
+}

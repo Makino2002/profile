@@ -49,6 +49,31 @@
   background-color: rgba(255, 255, 255, 0.12);
 }
 
+.cv-button {
+  background-color: white;
+  color: #667eea;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cv-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f0f0f0;
+}
+
+.cv-button:active {
+  transform: translateY(0);
+}
+
 .app-content {
   max-width: 1200px;
   margin: 0 auto;
